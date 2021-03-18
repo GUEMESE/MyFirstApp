@@ -1,0 +1,127 @@
+main {
+	max-width:1300px;
+	margin-right: auto;
+  margin-left: auto;     
+}
+
+body{
+  margin: 0;
+}
+
+header {
+	position:relative;  
+	height:400px;
+  width: 1300px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;	
+  background-position: center top;
+}
+
+h1, h2 {
+	font-family: 'Abril Fatface', cursive;
+	color: #222222;
+	text-indent: 270px;
+	position:absolute;
+}
+
+h1 {
+	font-size: 4em;
+	letter-spacing: 2.5px;
+	margin-top:255px;
+	padding-top:0px;
+}
+
+h2 {
+	font-size: 2em;
+	letter-spacing: 0.5px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	margin-top:220px;
+}
+
+.first {
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	margin:40px 270px 40px;
+	line-height:150%;
+	font-size:19.5px;
+}
+
+.mod_list {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #222222;
+	font-size:19px;
+	margin-top:-20px;
+	margin-bottom:50px;
+	margin-left:270px;
+	line-height:150%;
+	list-style-type:square;
+}
+
+blockquote::before {
+  content: ',,';
+	position:absolute;
+	display: inline-block;
+	transform: rotate(180deg);
+	font-size:100px;
+	letter-spacing:-3px;
+	left: 5px;
+  top:-10px;
+  /* then " the styling */
+}
+
+blockquote {
+	width: 800px;
+	position: relative;
+	font-family: 'Abril Fatface', cursive;
+	background:#444444;
+	color: white;
+	padding:50px;
+	margin:0 auto;
+	font-size:55px;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform:uppercase;
+	margin:50px 270px;
+}
+
+.mod {
+	font-family: 'Josefin Sans', sans-serif;
+	margin:40px 270px 0px;
+	font-size:23px;
+}
+
+div {
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	margin:40px 270px 40px;
+	line-height:150%;
+	font-size:14.8px;
+}
+
+i {
+	font-family: 'Merriweather', serif;
+	margin:20px 270px;
+	font-size:15px;
+	font-weight:600;
+}
+
+ul {
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	font-size:15px;
+	line-height:20px;
+	margin-bottom:50px;
+	margin-left:270px;
+	margin-right:280px;
+	list-style-type:square;
+}
+
+hr {
+	width:800px;
+	height:2px;
+	background:black;
+	border-style:solid;
+}
